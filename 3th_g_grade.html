@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Literary Lab</title>
+    <style>
+      /* Styles for the background image */
+      body {
+        background-image: url('lab1.jpg'); /* Replace 'lab.jpg' with the path to your background image */
+        background-size: cover; /* Cover the entire background */
+        background-repeat: repeat; /* Do not repeat the background image */
+        font-family: 'Times New Roman', Times, serif; /* Times New Roman font */
+      }
+
+      /* Styles for the container */
+      .container {
+        width: 80%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the container horizontally */
+        padding: 50px; /* Add some padding */
+        background-color: rgba(255, 255, 255, 0.377); /* Background color with opacity */
+        border-radius: 10px; /* Rounded corners */
+        text-align: center; /* Center align text */
+
+     /* Add the following properties to center the container vertically and diagonally */
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      /* Styles for the bookshelf */
+      .bookshelf {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      /* Styles for the book */
+      .book {
+        margin: 5px;
+      }
+
+      /* Styles for the title */
+      h1 {
+        font-family: 'Times New Roman', Times, serif; /* Times New Roman font */
+      }
+
+      /* Styles for the back-to-home button */
+     .back-button {
+       position: absolute; /* Absolute positioning for the button */
+       top: 25px; /* Distance from the top */
+       right: 25px; /* Distance from the right */
+       color: rgb(0, 0, 0); /* Set text color to white */
+       text-decoration: none; /* Remove underline */
+       padding: 10px 25px; /* Add padding */
+       border: 2px solid transparent; /* Hide border */
+       border-radius: 10px; /* Rounded corners */
+       transition: box-shadow 0.3s ease; /* Add transition for box shadow */
+      }
+
+      /* Add box shadow on hover */
+      .back-button:hover {
+        box-shadow: 0 0 5px rgb(0, 0, 0); /* Box shadow */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1></h1>
+      <a class="back-button" href="index.html">Back to Home</a>
+      <div class="bookshelf">
+        <div class="book">
+          <a href="book3g_1.html"><img src="book3g_1.jpg" alt="Book 1 Cover" width="225" height="300"></a>
+        </div>
+        <div class="book">
+          <a href="book3g_2.html"><img src="book3g_2.jpg" alt="Book 2 Cover" width="225" height="300"></a>
+        </div>
+        <div class="book">
+          <a href="book3g_3.html"><img src="book3g_3.jpg" alt="Book 3 Cover" width="225" height="300"></a>
+        </div>
+        <div class="book">
+          <a href="book3g_4.html"><img src="book3g_4.jpg" alt="Book 4 Cover" width="225" height="300"></a>
+        </div>
+        <div class="book">
+          <a href="book3g_5.html"><img src="book3g_5.jpg" alt="Book 5 Cover" width="225" height="300"></a>
+        </div>
+        <div class="book">
+          <a href="book3g_6.html"><img src="book3g_6.jpg" alt="Book 6 Cover" width="225" height="300"></a>
+        </div>
+        <div class="book">
+          <a href="book3g_7.html"><img src="book3g_7.jpg" alt="Book 7 Cover" width="225" height="300"></a>
+        </div>
+      <div class="book">
+        <a href="book3g_8.html"><img src="book2i3.jpg" alt="Book 8 Cover" width="225" height="300"></a>
+      </div>
+      <div class="book">
+        <a href="book3g_9.html"><img src="book3g_9.jpg" alt="Book 9 Cover" width="225" height="300"></a>
+      </div>
+      <div class="book">
+        <a href="book3g_10.html"><img src="book3g_10.jpg" alt="Book 10 Cover" width="225" height="300"></a>
+      </div>
+      <div class="book">
+        <a href="book3g_11.html"><img src="book2i3_2.jpg" alt="Book 11 Cover" width="225" height="300"></a>
+      </div>
+        <!-- Add more books -->
+      </div>
+    </div>
+  </body>
+</html>
