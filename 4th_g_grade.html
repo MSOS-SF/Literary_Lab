@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Literary Lab</title>
+    <style>
+      /* Styles for the background image */
+      body {
+        background-image: url('lab1.jpg'); /* Default background image for larger screens */
+        background-size: cover; /* Cover the entire background */
+        background-repeat: repeat; /* Do not repeat the background image */
+        font-family: 'Times New Roman', Times, serif; /* Times New Roman font */
+        background-color: rgb(45, 30, 25, 1);
+      }
+
+      /* Media query for mobile devices */
+      @media only screen and (max-width: 600px) {
+        body {
+          background-image: url('lab2.jpg'); /* New background image for mobile devices */
+        }
+      }
+
+    /* Styles for the container */
+.container {
+  width: 80%; /* Adjust the width as needed */
+  height: 50%;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add some padding */
+  background-color: rgba(255, 255, 255, 0.637); /* Background color with opacity */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center align text */
+
+  /* Add the following properties to center the container vertically and diagonally */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Add border to create a frame around the buttons */
+  border: 2px solid #fffcfca6; /* Default border color */
+}
+
+/* Styles for the sections */
+.sections {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Styles for each section */
+.section {
+  width: calc(33.33% - 20px); /* Each section occupies one-third of the container width with some spacing */
+  margin: 10px; /* Add some spacing between sections */
+}
+
+/* Styles for the section headings */
+.section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Styles for the links in sections */
+.section a {
+  display: inline-block; /* Display as inline-block */
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the text color of the parent */
+  padding: 5px 10px; /* Add padding */
+  margin: 5px; /* Add margin between buttons */
+  border: 2px solid #fffcfca6; /* Default border with color */
+  border-radius: 5px; /* Rounded corners */
+  transition: box-shadow 0.3s ease, border 0.3s ease; /* Transition for box shadow and border */
+}
+
+
+/* Add box shadow and increase border thickness on hover */
+.section a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow on hover */
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1></h1>
+      <div class="sections">
+        <div class="section">
+          <h2><a href="5th_grade.html">5th Grade</a></h2>
+        </div>
+        <div class="section">
+          <h2><a href="6th_grade.html">6th Grade</a></h2>
+        </div>
+        <div class="section">
+          <h2><a href="7th_grade.html">7th Grade</a></h2>
+        </div>
+        <div class="section">
+          <h2><a href="1th_g_grade.html">1th G Grade</a></h2>
+        </div>
+        <div class="section">
+          <h2><a href="2th_g_grade.html">2th G Grade</a></h2>
+        </div>
+        <div class="section">
+          <h2><a href="3th_g_grade.html">3th G Grade</a></h2>
+        </div>
+        <div class="section">
+          <h2><a href="o2.html">Book Report Worksheet For Elementary S.</a></h2> 
+        </div>
+        <div class="section">
+          <h2><a href="o1.html">Book Report Worksheet For High S.</a></h2> 
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
